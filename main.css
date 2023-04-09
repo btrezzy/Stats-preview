@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main-container{
+    background-color: hsl(233, 47%, 7%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    
+    
+
+
+}
+
+.container{
+    
+    width: 75vw;
+    height: 65vh;  
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row-reverse; 
+    overflow: hidden;
+
+   
+}
+
+.text{
+    background-color:  hsl(244, 38%, 16%);
+    width: 50vw;
+    height: 65vh;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    
+    
+}
+
+.text1{
+    font-family:  'Inter', sans-serif;
+    color: white;
+    margin: 30px 70px;
+    margin-top: 70px;
+    font-size: 30px;
+    text-align: left;
+}
+.text1 span{
+    color: blueviolet;
+    
+}
+
+.text2{
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    text-align:left;
+    font-size: 15px;
+    font-weight: 1000;
+    margin: 0px 70px;  
+
+    
+}
+
+
+.text3{
+    display: flex; 
+    font-family: 'Lexend Deca', sans-serif;
+    flex-direction: row;
+    color: white;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    font-size: smaller;
+
+
+}
+
+.text3 span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    
+   
+
+   
+}
+
+
+
+/* img{
+    width: 100%;
+    height: 100%;
+    border-radius:0px 10px 10px 0px;
+    
+} */
+
+.image{
+    background-image: url('image-header-desktop.jpg');      
+    background-repeat: no-repeat;
+    width: 40vw;
+    position: relative;
+    
+    
+/* 
+    to put overlay, before wali class should be nonstatic for the overlay absolute to work  */
+    
+    
+}
+
+.layer{
+    background-color: hsla(277, 91%, 43%, 0.349);
+    position: absolute;
+    /* width: 33.5vw;
+    height: 65vh; */
+    width: 100%;
+    height: 100%;
+   top: 0;
+   right: 0;
+   opacity: 40%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    
+}
+
+
+/* height 530 and width 1133  looses responsiveness */
+
+
+
+
